@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+       uri: mongodb+srv://svengauggel:HumptyDumpty@stackrstore.icriak4.mongodb.net/stackrStore
+       database: stackrStore
+  mvc:
+    log-request-details: true
+springdoc:
+  api-docs:
+    path: /api-docs
